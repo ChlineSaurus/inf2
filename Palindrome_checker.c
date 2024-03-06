@@ -18,7 +18,7 @@
 
 
 int isPalindrome(char X[], int i , int j) {
-    if (i>=j){
+    if (i>j){
         if(X[i]!=X[j]){
             return 0;
         }
